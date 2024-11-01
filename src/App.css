@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://images.pexels.com/photos/5846116/pexels-photo-5846116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Adjust the path */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 2px;
+  /* Remove these styles to eliminate the white box */
+  background-color:transparent; /* Set to transparent */
+  box-shadow:none; /* Remove box shadow */
+}
+
+.label {
+  color: #100d04; /* Change to your desired label color */
+  font-weight: bold; /* Optional: make the label bold */
+}
+
+
+
+

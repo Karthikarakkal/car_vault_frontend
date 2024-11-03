@@ -5,17 +5,20 @@ import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import Home from './components/Home';
 import Main from './components/Main';
-import Nav from './components/Nav';
+
 import Add from './components/Add';
 import Search from './components/Search';
-import Edit from './components/Edit';
+
 import Viewall from './components/Viewall'; // Import your ViewAll component
+import Editvehicle from './components/Editvehicle';
+import Navbar from './Navbar';
+import Navb from './components/Navb';
 
 function App() {
   return (
     <VehicleProvider>
       <BrowserRouter>
-        <Nav /> {/* Assuming Nav should be displayed on every page */}
+   
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/SignIn' element={<SignIn />} />
@@ -23,7 +26,8 @@ function App() {
           <Route path="/Main" element={<Main />} />
           <Route path='/Add' element={<Add />} />
           <Route path='/Search' element={<Search />} />
-          <Route path='/Edit' element={<Edit />} />
+          <Route path='/Editvehicle' element={<Editvehicle />} />
+          <Route path='/nav' element={<Navb/>} />
           <Route path='/Viewall' element={<Viewall />} /> {/* Add route for ViewAll */}
         </Routes>
       </BrowserRouter>

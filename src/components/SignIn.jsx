@@ -33,7 +33,7 @@ const SignIn = () => {
       // Successful login
       localStorage.setItem('token', data.token); // Store token if returned
       setMessage('Login successful!');
-      navigate('/Main'); // Redirect to Main page
+      navigate('/Add'); // Redirect to Main page
 
     } catch (error) {
       setMessage(error.message);

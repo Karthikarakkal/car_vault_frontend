@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Navb from './Navb';
 
 const Search = () => {
   const [vehicles, setVehicles] = useState([]);
@@ -34,6 +35,8 @@ const Search = () => {
   };
 
   return (
+    <div>
+    <Navb/>
     <div className="search-container">
       <br />
       <center><h2>Search Vehicle</h2></center>
@@ -105,6 +108,7 @@ const Search = () => {
           </table>
         </div>
       )}
+    </div>
     </div>
   );
 };

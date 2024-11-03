@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import Navb from './Navb';
 
 const Add = () => {
   const [formData, setFormData] = useState({
@@ -67,6 +68,7 @@ const Add = () => {
 
   return (
     <div>
+      <Navb/>
       <div className="add-container">
         <div className="container">
           <form onSubmit={handleSubmit}>

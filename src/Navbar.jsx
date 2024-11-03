@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-const AdminDashBoard = () => {
+const  Navbar = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -34,7 +34,7 @@ const AdminDashBoard = () => {
               </li>
             
               <li className="nav-item">
-                <Link className="nav-link" to="/Edit">Edit Profile</Link>
+                <Link className="nav-link" to="/editvehicle">Edit Profile</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/Viewall">Viewall Profile</Link>
@@ -52,4 +52,4 @@ const AdminDashBoard = () => {
   );
 };
 
-export default AdminDashBoard;
+export default Navbar;

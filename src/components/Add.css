@@ -1,0 +1,19 @@
+.add-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  min-height: 100vh; /* Full viewport height */
+  background-image: url("https://images.pexels.com/photos/4542988/pexels-photo-4542988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); /* Replace with your image path */
+  background-size: cover; /* Cover entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating */
+  padding-top: 20px; /* Optional: space from top */
+}
+
+.container {
+  margin-top: 20px; /* Space above the container */
+  background: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background for better readability */
+  padding: 20px; /* Optional: padding inside the container */
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
+}

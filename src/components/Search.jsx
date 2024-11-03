@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navb from './Navb';
 
+
 const Search = () => {
   const [vehicles, setVehicles] = useState([]);
   const [searchNumber, setSearchNumber] = useState('');

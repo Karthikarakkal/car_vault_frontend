@@ -45,14 +45,17 @@ const UserSignUp = () => {
     };
 
     return (
-        <div>
-            <div className="alert alert-primary" role="alert">
-                <center>
-                    <b>
-                        <h3>New User Sign Up</h3>
-                    </b>
-                </center>
-            </div>
+        <div
+            style={{
+                height: '100vh',
+                backgroundImage: 'url("https://images.pexels.com/photos/3807450/pexels-photo-3807450.jpeg")', // Replace with your image path
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+            }}
+        >
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-6">

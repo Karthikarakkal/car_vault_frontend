@@ -42,7 +42,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('https://images.pexels.com/photos/5846116/pexels-photo-5846116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Adjust the path */
+  background-image: url('https://images.pexels.com/photos/4489703/pexels-photo-4489703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Adjust the path */
   background-size: cover;
   background-position: center;
 }

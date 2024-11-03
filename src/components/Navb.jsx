@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-const Navb= () => {
+const Navb = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -15,7 +15,7 @@ const Navb= () => {
   return (
     <div>
       <div className="alert alert-primary" role="alert">
-        <center><b><h3>ADMIN's CONTROL</h3></b></center>
+        <center><b><h3>ADMIN DASHBOARD</h3></b></center>
       </div>
       
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -27,18 +27,20 @@ const Navb= () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/Add">Add Profile</Link>
+                <Link className="nav-link active" aria-current="page" to="/Add">Add Vehicle Details</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Search">Search Profile</Link>
-              </li>
-            
-              <li className="nav-item">
-                <Link className="nav-link" to="/editvehicle">Edit Profile</Link>
+                <Link className="nav-link" to="/Search">Search Vehicle Details</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Viewall">Viewall Profile</Link>
+                <Link className="nav-link" to="/editvehicle">Edit Vehicle Details</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Viewall">View All Vehicle Details</Link>
+              </li>
+            </ul>
+            {/* Logout button aligned to the right */}
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <button className="btn btn-danger" onClick={handleLogout}>
                   Logout

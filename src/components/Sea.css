@@ -1,0 +1,75 @@
+/* Style for the main search container */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    background-image: url("https://images.pexels.com/photos/4489703/pexels-photo-4489703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  /* Form styling */
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .search-input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: #ff4c4c;
+    margin-top: 10px;
+  }
+  
+  /* Vehicle details section */
+  .vehicle-details {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .vehicle-info {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .vehicle-image {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .vehicle-specs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  

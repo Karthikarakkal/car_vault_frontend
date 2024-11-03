@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Navb from './Navb';
+import './Add.css';
 
 const Add = () => {
   const [formData, setFormData] = useState({
@@ -91,7 +92,7 @@ const Add = () => {
                   </div>
 
                   <div className="col col-12">
-                    <label htmlFor="company" className="label form-label">Company</label>
+                    <label htmlFor="company" className="label form-label">Brand</label>
                     <input
                       type="text"
                       className="input form-control"
@@ -103,7 +104,7 @@ const Add = () => {
 
                   {/* Vehicle Name */}
                   <div className="col col-12">
-                    <label htmlFor="name" className="label form-label">Vehicle Name</label>
+                    <label htmlFor="name" className="label form-label">Vehicle Model</label>
                     <input
                       type="text"
                       className="input form-control"
@@ -115,7 +116,7 @@ const Add = () => {
 
                   {/* Color */}
                   <div className="col col-12">
-                    <label htmlFor="color" className="label form-label">Color</label>
+                    <label htmlFor="color" className="label form-label">Vehicle Color</label>
                     <input
                       type="text"
                       className="input form-control"
@@ -165,6 +166,8 @@ const Add = () => {
                       <option value="brakeCheck">Brake Check</option>
                       <option value="chainLubrication">Chain Lubrication</option>
                       <option value="batteryCheck">Battery Check</option>
+                      <option value="batteryCheck">Air filter</option>
+                      <option value="batteryCheck"></option>
                     </select>
                   </div>
 
